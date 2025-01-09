@@ -16,7 +16,42 @@
             flex: 1;
             margin: 10px;
         }
+        .form-container {
+            margin: 20px auto;
+            max-width: 600px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        form label {
+            font-weight: bold;
+        }
+        form input, form textarea, form button {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        form button {
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #0056b3;
+        }
     </style>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-0KZEYQXH04');
+    </script>
 </head>
 <body>
     <header>
@@ -33,16 +68,12 @@
     <section id="home">
         <h2>Welcome</h2>
         <p>Hi! I'm Chukwuemeka Onyike, a data analyst. Welcome to my portfolio.</p>
-        <img src="image\_SLB0035.jpg" alt="Chukwuemeka Onyike">
+        <img src="image/_SLB0035.jpg" alt="Chukwuemeka Onyike">
     </section>
     <section id="about">
         <h2>About Me</h2>
-        <p>Hello! I'm Onyike Chukwuemeka U., a passionate and results-driven data analyst with a strong background in business and information science. With a Bachelor's Degree in Library and Information Science, a Master’s in Business Analytics, and certifications in Business Intelligence Fundamentals and Lean Six Sigma White Belt, I possess the technical and analytical skills to derive actionable insights from complex datasets.</p>
-        <p>Currently serving as Sales Manager at Shoe Planet Multi-Concepts Ltd., I blend my expertise in sales management with my data analysis capabilities to drive business growth and optimize performance. I have experience handling diverse datasets, including sales and export data, and enjoy transforming raw information into meaningful insights. My skills span data cleaning, visualization, and dashboard creation using tools like Microsoft Excel, Tableau, and Power BI.</p>
-        <p>Beyond the office, I’m committed to continuous learning and recently completed Cisco’s Data Analytics Essentials course, where I enhanced my skills in analyzing trends and creating dashboards. Fluent in English and Igbo, with a touch of Efik, I bring strong communication abilities and a collaborative mindset to every project.</p>
-        <p>I'm deeply interested in using data to bridge gaps and solve real-world challenges, especially in business and development contexts. Whether it’s identifying trends, uncovering insights, or delivering compelling visualizations, I’m excited to explore innovative solutions through data.</p>
-        <p>Let’s connect and make data work smarter!</p>
-        <img src="image\_SLB0033 - Copy.jpg" alt="About Me">
+        <p>Hello! I'm Onyike Chukwuemeka U., a passionate and results-driven data analyst with a strong background in business and information science...</p>
+        <img src="image/_SLB0033 - Copy.jpg" alt="About Me">
     </section>
     <section class="container" id="skills-tools-certifications">
         <div>
@@ -77,52 +108,41 @@
                 <li>Business Intelligence Fundamentals Certification</li>
                 <li>Lean Six Sigma White Belt Certification</li>
                 <li>Cisco’s Data Analytics Essentials Certification</li>
-                <li>Business Management Essentials Certified, Management and Strategy Institute</li>
-                <li>Agile Scrum Foundation, Simplilearn, August 2023</li>
+                <li>Business Management Essentials Certified</li>
+                <li>Agile Scrum Foundation</li>
             </ul>
         </div>
     </section>
     <section id="projects">
         <h2>Projects</h2>
         <div class="project">
-            
-            <h3>Project 1: Product Campaign Metrics: Comparing Marketing Campaigns
-                against Competitors (Looker Studio)</h3>
-                <img src="image/pd.PNG" alt="Project 1 Thumbnail">
+            <h3>Project 1: Product Campaign Metrics</h3>
+            <img src="image/pd.PNG" alt="Project 1 Thumbnail">
             <p><a href="image/TechTech%20(3).pdf">View Report</a></p>
-            <img src="image\cba.PNG" alt="Project 1a Thumbnail">
         </div>
         <div class="project">
-            
-            <h3>Project 2: Nigerian Agricultural Export Dashboard (Microsoft Excel)</h3>
-            <img src="image\DATA_TRIBE_ONYIKE_C_U.PNG" alt="Project 2 Thumbnail">
-            <p><a href="image\DATA_TRIBE_ONYIKE_C_U.PNG">View Dashboard</a></p>
+            <h3>Project 2: Nigerian Agricultural Export Dashboard</h3>
+            <img src="image/DATA_TRIBE_ONYIKE_C_U.PNG" alt="Project 2 Thumbnail">
+            <p><a href="image/DATA_TRIBE_ONYIKE_C_U.PNG">View Dashboard</a></p>
             <p><a href="Data_Tribe_Onyike_Chukwuemeka_SummaryandInsight.pdf">View Report</a></p>
-            <p><a href = "https://medium.com/@emekaonyike/agricultural-exports-2020-2023-trends-insights-and-opportunities-8f5800397a67"> View Publication</a></p>
         </div>
-        <div class="project">
-           
-            <h3>Project 3: HR Attrition Dashboard (Power BI)</h3>
-            <img src="image\HR Attrition 1.jpg">
-            <p><a href="https://www.linkedin.com/posts/emekaonyike_dataanalysis-internship-hranalytics-activity-7147607615869521920-zpBb?utm_source=share&utm_medium=member_desktop">View Report</a></p>
-            <img src="image\HR Attrition 2.jpg" alt="Project 3 Thumbnail">
-            <!-- <p><a href="Data_Tribe_Onyike_Chukwuemeka_SummaryandInsight.pdf">View Report</a></p> -->
-        </div>
-        <div class="project">
-            <!-- <img src="C:\Users\user\Desktop\emeka\DATA HUB\PORTFOLIO\cba.PNG" alt="Project 2 Thumbnail">-->
-             <h3>Project 4: Sales Dashboard 2019 (Using Power BI)</h3>
-             <img src="image\Sales Dashboard.jpg">
-             <p><a href="https://www.linkedin.com/posts/emekaonyike_dataanalysis-businessintelligence-datadrivendecisions-activity-7136364979821133824-3JqA?utm_source=share&utm_medium=member_desktop">View Report</a></p>
-             <!-- <p><a href="Data_Tribe_Onyike_Chukwuemeka_SummaryandInsight.pdf">View Report</a></p> -->
-         </div>
-        
-        <!-- Add more projects as needed -->
     </section>
     <section id="contact">
-        <h2>Contact</h2>
-       <section Class ="container"  id = "social Media" > <p>Email: <a href="mailto:youremail@example.com">emekaonyike@gmail.com</a> | Phone: +2348063604423</p>
-        <p> <a href="www.linkedin.com/in/emekaonyike">Linkedin</a>  </ahref> </p>
-        <p> <a href="www.facebook.com/emekaonyike "> Facebook</a></p>
+        <h2>Contact Me</h2>
+        <div class="form-container">
+            <form action="https://formspree.io/f/mzzzkkqq" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="_replyto" placeholder="Enter your email" required>
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Enter your message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        <p>Email: <a href="mailto:emekaonyike@gmail.com">emekaonyike@gmail.com</a></p>
+        <p><a href="https://www.linkedin.com/in/emekaonyike">LinkedIn</a></p>
+        <p><a href="https://www.facebook.com/emekaonyike">Facebook</a></p>
     </section>
     <footer>
         <p>&copy; 2025 Chukwuemeka Onyike. All rights reserved.</p>
